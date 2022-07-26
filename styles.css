@@ -1,7 +1,7 @@
 body {
 	font-family: "Handlee", cursive;
 	background: #171717;
-	font-size: 16px;
+	font-size: 20px;
 }
 .postcard {
 	background: white;
@@ -19,7 +19,6 @@ body {
 }
 .postcard-body {
 	overflow: hidden;
-	display: flex;
 }
 .postcard-header img {
 	max-width: 60px;
@@ -29,7 +28,10 @@ body {
 	padding: 10px;
 	text-align: center;
 }
-
+.postcard-footer input[type="submit"] {
+	border: none;
+	border-bottom: 1px solid gray;
+}
 .postcard-body input[type="text"] {
 	border: none;
 	border-bottom: 1px solid gray;
@@ -52,13 +54,9 @@ input {
 	float: right;
 	width: 50%;
 }
-
+.body-rigth {
+	display: block;
+}
 h1 {
 	font: size 35px;
-}
-button {
-	background-color: darkgray;
-	padding: auto;
-	border: none;
-	border-bottom: 1px solid gray;
 }
